@@ -1,0 +1,6 @@
+datasets
+torch
+rouge-score
+sacrebleu
+numpy
+scikit-learn

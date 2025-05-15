@@ -1,6 +1,22 @@
-datasets
-torch
-rouge-score
-sacrebleu
-numpy
-scikit-learn
+# Core ML Framework
+torch>=1.9.0
+torchvision>=0.10.0
+
+# Data Processing
+numpy>=1.21.0
+pandas>=1.3.0
+
+# Machine Learning
+scikit-learn>=1.0.0
+
+# Text Processing and Evaluation
+rouge-score>=0.1.2
+sacrebleu>=2.0.0
+
+# Development and Utilities
+jupyter>=1.0.0
+ipykernel>=6.0.0
+
+# Optional: For better performance
+# Install appropriate PyTorch version for your CUDA version
+# See: https://pytorch.org/get-started/locally/
